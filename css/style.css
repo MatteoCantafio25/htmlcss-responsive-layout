@@ -128,6 +128,10 @@ li {
     margin-top: 20px;
 }
 
+.mt-40 {
+    margin-top: 40px;
+}
+
 .pb-20 {
     padding-bottom: 20px;
 }
@@ -140,6 +144,9 @@ li {
     padding-top: 20px;
 }
 
+.social-name {
+    display: none;
+}
 
 
 /* Header */
@@ -263,4 +270,11 @@ article img {
     color: white;
     text-decoration: underline;
     padding: 8px;
+}
+
+.left-foot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

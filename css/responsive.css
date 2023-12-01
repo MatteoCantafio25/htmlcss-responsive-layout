@@ -72,3 +72,80 @@
         display: block;
     }
 }
+
+/* Schermata desktop px */
+
+@media screen and (min-width: 1440px) {
+    .container {
+        max-width: 1200px;
+        padding-top: 40px;
+    }
+
+    iframe {
+        min-height: 470px;
+    }
+
+    .dolci-container {
+        max-width: 1200px;
+        max-height: 40px;
+    }
+
+    .social-bar {
+        max-width: 1200px;
+    }
+
+    article {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .row {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .video {
+        flex-basis: 70%;
+    }
+
+    .info-box {
+        flex-basis: 30%;
+        height: 470px;
+    }
+
+    .card {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .difficulty {
+        font-size: 18px;
+    }
+
+    .social-name {
+        display: inline-block;
+    }
+
+    .banner-container {
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+
+    .banner {
+        width: 1200px;
+    }
+
+    .about-us-container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+    }
+
+    .left-foot {
+        align-items: normal;
+    }
+
+
+}
