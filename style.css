@@ -4,3 +4,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Generics */
+
+/* Utils */
+.border {
+    border: 2px dashed black;
+}
+
+/* Header */
+
+#navbar {
+    min-height: 100px;
+    width: 100%;
+}
+
+.header {
+    font-family: 'Nerko One', cursive;
+    font-size: 4rem;
+    color: #FF9614;
+    text-align: center;
+    line-height: 100px;
+}
